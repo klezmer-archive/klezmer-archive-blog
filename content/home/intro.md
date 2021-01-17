@@ -8,11 +8,11 @@ headless: true
 # Order that this section will appear in.
 weight: 10
 
-title: ✏️ Blog Template
-subtitle: 'For [Wowchemy Website Builder](https://wowchemy.com/)'
+title: Klezmer Archive
+subtitle: 'A project of the [Klezmer Institute](https://klezmerinstitute.org/klezmerarchive/)'
 
 design:
   background:
-    color: '#090a0b'
-    text_color_light: true
+    color: '#eee'
+    text_color_light: false
 ---
