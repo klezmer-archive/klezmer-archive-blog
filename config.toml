@@ -1,0 +1,6 @@
+#baseURL = "http://tsimbl.org/"
+baseURL = "https://pedantic-williams-579b27.netlify.app/"
+languageCode = "en-us"
+title = "Klezmer Archive Blog"
+
+theme = "book"
