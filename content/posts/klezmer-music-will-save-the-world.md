@@ -7,7 +7,7 @@ tags:
 categories:
   - Klezmer
 ---
-![](/images/uploads/12111917_10207802460843201_8816107429232329243_n.jpg)
+![]()
 
 We better think
 
