@@ -10,3 +10,7 @@ categories:
 Howdy friends, 
 
 Welcome to the new blog for the Klezmer Archive Project. We are excited to start sharing some of the work we have been doing with the project and will use this space to keep members of our community and other intrested folks up to date on what we're up to!
+
+
+
+![](/images/uploads/berebotski.png)
