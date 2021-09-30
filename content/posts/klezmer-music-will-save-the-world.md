@@ -7,6 +7,8 @@ tags:
 categories:
   - Klezmer
 ---
+![](/images/uploads/berebotski.png)
+
 We better think
 
 Yes indeed! - Clara
