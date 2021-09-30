@@ -7,6 +7,6 @@ tags:
 categories:
   - Klezmer
 ---
-`<b>`We better think`</b>`
+We better think
 
 Yes indeed! - Clara
