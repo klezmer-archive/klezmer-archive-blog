@@ -23,9 +23,9 @@ By Christina Crowder, 25 May, 2022
 
 In our first post we’d like to briefly describe how The Klezmer Archive Project and the Kiselgof-Makonovetsky Digital Manuscript Project (KMDMP) relate to each other while being distinct projects with different design, audience and objectives. The KMDMP corpus is being used as a “test corpus” for the Klezmer Archive Project, and the crowdsourcing and community-building aspects of the project are informing Klezmer Archive research in the areas of user experience, data ingestion, and ontology building among others. Both projects were startup initiatives of the Klezmer Institute that began in 2020. The Klezmer Archive Project has been funded by a Phase I NEH Digital Humanities Advancement Grant from 2021-2022, while KMDMP is supported solely by individual donations.    
 
-\    We will begin our discussion with a brief overview of the design and expected outcomes of each project. 
+We will begin our discussion with a brief overview of the design and expected outcomes of each project. 
 
-\    The Klezmer Archive Project is creating a new kind of digital humanities archival tool for musics of oral tradition and folklore topics. The project team is working to create a universally accessible, useful resource for interaction, discovery, and research on available information about klezmer music.  Key features and goals of the project are:
+The Klezmer Archive Project is creating a new kind of digital humanities archival tool for musics of oral tradition and folklore topics. The project team is working to create a universally accessible, useful resource for interaction, discovery, and research on available information about klezmer music.  Key features and goals of the project are:
 
 * Innovation in Digital Humanities tools for Music of Oral Tradition (MoOT) and folklore subjects
 * Creating open source tools that can be used and adapted by others
@@ -40,7 +40,7 @@ In our first post we’d like to briefly describe how The Klezmer Archive Projec
 
 ![](https://lh4.googleusercontent.com/wOL-TN4JQjhIHWFJQjs9iKnLkrPIGmfvTVcQH84VEouYhrY_x6lRE5rdoeYh7Rc2k9vEuET4PEVgaSiPRfseMgMbxDdw455bd6OfowXuw8kZoSmmU__qVCrit-5noJHkByQfzgRuBHCYjnuMaA)
 
-\    The Kiselgof-Makonovetsky Digital Manuscript Project (KMDMP) connects musicians, Yiddishists, and scholars today with klezmer musicians from more than 100 years ago through an international digital humanities project that is innovating new forms of public scholarship through accessible online platforms. The project community is digitally notating and translating handwritten music and text collected during the An-ski Ethnographic Expeditions of 1912-1914 and the Makonovetsky Wedding Manuscript, making them accessible to scholars and musicians for further study, computational analysis, and performance. Key features and goals of the project are:
+The Kiselgof-Makonovetsky Digital Manuscript Project (KMDMP) connects musicians, Yiddishists, and scholars today with klezmer musicians from more than 100 years ago through an international digital humanities project that is innovating new forms of public scholarship through accessible online platforms. The project community is digitally notating and translating handwritten music and text collected during the An-ski Ethnographic Expeditions of 1912-1914 and the Makonovetsky Wedding Manuscript, making them accessible to scholars and musicians for further study, computational analysis, and performance. Key features and goals of the project are:
 
 * Creating non-hierarchical learning and community spaces 
 * Community-based research by scholars and practitioners
@@ -52,13 +52,13 @@ In our first post we’d like to briefly describe how The Klezmer Archive Projec
 * In-house admin team (Klezmer Institute)
 * Advisory board comprised of archivists, Yiddishists, & musicians
 
-\    The public page for KMDMP is [here](https://klezmerinstitute.org/KMDMP/).
+The public page for KMDMP is [here](https://klezmerinstitute.org/KMDMP/).
 
-\    Elaborating these core components demonstrate key distinctions between Klezmer Archive and KMDMP. The Archive project is expansive in vision, timeline, and its intended audience, while KMDMP speaks more specifically to a klezmer music and Yiddish language audience, and is focused on a limited corpus of material. The two projects are interconnected because the KMDMP musical corpus is serving as the “test corpus” for the Klezmer Archive Project team, and the KMDMP volunteer community is a core insider audience that the Klezmer Archive will serve. 
+Elaborating these core components demonstrate key distinctions between Klezmer Archive and KMDMP. The Archive project is expansive in vision, timeline, and its intended audience, while KMDMP speaks more specifically to a klezmer music and Yiddish language audience, and is focused on a limited corpus of material. The two projects are interconnected because the KMDMP musical corpus is serving as the “test corpus” for the Klezmer Archive Project team, and the KMDMP volunteer community is a core insider audience that the Klezmer Archive will serve. 
 
-\    Both the original manuscript images and the digitally notated versions of melodies in the KMDMP corpus are important for the archive team’s music information retrieval (MIR) and ontology research. We are exploring ways to capture and organize musical and textual data so that it can be made available for search and analysis by users including musicologists, corpus studies specialists, historians, musicians, and the general public. Major areas of interest include: 
+Both the original manuscript images and the digitally notated versions of melodies in the KMDMP corpus are important for the archive team’s music information retrieval (MIR) and ontology research. We are exploring ways to capture and organize musical and textual data so that it can be made available for search and analysis by users including musicologists, corpus studies specialists, historians, musicians, and the general public. Major areas of interest include: 
 
-* connecting musical data with the textual/visual context found both on the manuscript pages and in associated catalogs. 
+* Connecting musical data with the textual/visual context found both on the manuscript pages and in associated catalogs. 
 * Interpreting (transliterating and translating) notes in Yiddish, Russian, Italian, and German from many authors using idiosyncratic orthography,
 * Capturing marks and annotations (such as check marks and plus signs in blue and red pencil) that will require further study to interpret
 * Developing practical typologies to make search on unnamed melodies useful for musicians and researchers  
