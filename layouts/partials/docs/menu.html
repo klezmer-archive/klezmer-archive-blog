@@ -1,0 +1,14 @@
+<nav>
+{{ partial "docs/brand" . }}
+{{ partial "docs/search" . }}
+
+{{ partial "docs/inject/menu-before" . }}
+{{ partial "docs/menu-hugo" .Site.Menus.before }}
+
+</nav>
+
+<!-- Restore menu position as soon as possible to avoid flickering -->
+{{ $script := resources.Get "menu-reset.js" | resources.Minify }}
+{{ with $script.Content }}
+  <script>{{ . | safeJS }}</script>
+{{ end }}
