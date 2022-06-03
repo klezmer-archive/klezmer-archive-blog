@@ -18,3 +18,4 @@ theme = "book"
   BookSection = 'posts'
   BookComments = false
   BookLogo = 'KA_logo.png'
+  tagline = 'A universally accessible, useful resource for interaction, discovery, and research on all available information about klezmer music'
