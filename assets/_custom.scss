@@ -9,11 +9,6 @@ h1, h2, h3, h4, h5, .tagline {
   font-family: 'Alegreya Sans', sans-serif;
 }
 
-.book-brand {
-  //display: flex;
-  //align-items: center;
-}
-
 .book-brand img {
   height: 9rem;
   width: auto;
@@ -43,9 +38,8 @@ h1, h2, h3, h4, h5, .tagline {
   position: sticky;
   top: 0;
   height: 4rem;
-  background: white;
-  opacity: 100%;
-  background-color: rgba(24,58,111, 1);
+  background-color: rgba(24,58,111,1);
+  z-index: 1;
 }
 
 .top-bar a h1,
