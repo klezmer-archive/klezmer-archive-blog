@@ -5,6 +5,12 @@
   font-family: 'Alegreya', serif;
 }
 
+:root {
+  --ka-dark-blue: rgba(24,58,111,1);
+  --ka-light-blue: #6FD8E7;
+  --ka-green: #9BC84C;
+}
+
 h1, h2, h3, h4, h5, .tagline {
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -22,9 +28,19 @@ h1, h2, h3, h4, h5, .tagline {
   flex-wrap: wrap;
 }
 
+#book-search-results:not(:empty) {
+  display: block;
+  background-color: white;
+  margin: 1rem;
+
+  padding: 0.5rem;
+  outline: 0.2rem solid var(--ka-light-blue);
+  border-radius: 0.2rem;
+}
+
 .banner {
   background-image:
-    linear-gradient(to bottom, rgba(30,30,30,0.5), rgba(24,58,111,0.5)),
+    linear-gradient(to bottom, rgba(30,30,30,0.5), rgba(24,58,111,0.7)),
     url('images/KMDMP-heft-banner.png');
   height: 100%;
   padding: 5rem;
@@ -39,7 +55,7 @@ h1, h2, h3, h4, h5, .tagline {
   align-items: baseline;
   top: 0;
   height: 4rem;
-  background-color: rgba(24,58,111,1);
+  background-color: var(--ka-dark-blue);
   z-index: 1;
 }
 
