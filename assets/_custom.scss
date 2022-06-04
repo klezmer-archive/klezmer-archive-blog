@@ -82,11 +82,12 @@ article {
 
 
 .top-bar a h2 {
-  color: var(--ka-light-blue)
+  color: var(--ka-light-blue);
+  font-size: clamp(1rem, 2.2vw, 1.5rem);
 }
 
 .top-bar a h1 {
-  font-size: clamp(0.75rem, 2.5vw, 1.5rem);
+  font-size: clamp(1.1rem, 2.5vw, 1.8rem);
 }
 
 .tagline {
