@@ -1,6 +1,21 @@
 #baseURL = "http://tsimbl.org/"
-baseURL = "https://pedantic-williams-579b27.netlify.app/"
+baseURL = "blog.klezmerarchive.org"
 languageCode = "en-us"
 title = "Klezmer Archive Blog"
 
 theme = "book"
+
+[params]
+  # (Optional, default light) Sets color theme: light, dark or auto.
+  # Theme 'auto' switches between dark and light modes based on browser/os preferences
+  BookTheme = 'light'
+
+  # (Optional, default true) Controls table of contents visibility on right side of pages.
+  # Start and end levels can be controlled with markup.tableOfContents setting.
+  # You can also specify this parameter per page in front matter.
+  BookToC = false
+
+  BookSection = 'posts'
+  BookComments = false
+  BookLogo = 'KA_logo.png'
+  tagline = 'A universally accessible, useful resource for interaction, discovery, and research on all available information about klezmer music'
