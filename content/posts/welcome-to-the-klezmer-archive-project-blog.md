@@ -1,11 +1,11 @@
 ---
 title: Welcome to the Klezmer Archive Project Blog!!
 date: 2022-05-30T11:22:57.255Z
-image: /images/uploads/ka-lib-card-logo-left-rule-only.png
 description: In our first post we’d like to briefly describe how The Klezmer
   Archive Project and the Kiselgof-Makonovetsky Digital Manuscript Project
   (KMDMP) relate to each other while being distinct projects with different
   design, audience and objectives.
+image: /images/uploads/ka-lib-card-logo-left-rule-only.png
 tags:
   - news
   - KMDMP
@@ -38,7 +38,7 @@ The Klezmer Archive Project is creating a new kind of digital humanities archiva
 
    The public page for the Klezmer Archive Project is here.
 
-![](https://lh4.googleusercontent.com/wOL-TN4JQjhIHWFJQjs9iKnLkrPIGmfvTVcQH84VEouYhrY_x6lRE5rdoeYh7Rc2k9vEuET4PEVgaSiPRfseMgMbxDdw455bd6OfowXuw8kZoSmmU__qVCrit-5noJHkByQfzgRuBHCYjnuMaA)
+![Kiselgof-Makonovetsky Digital Manuscript Project Logo](https://lh4.googleusercontent.com/wOL-TN4JQjhIHWFJQjs9iKnLkrPIGmfvTVcQH84VEouYhrY_x6lRE5rdoeYh7Rc2k9vEuET4PEVgaSiPRfseMgMbxDdw455bd6OfowXuw8kZoSmmU__qVCrit-5noJHkByQfzgRuBHCYjnuMaA "Kiselgof-Makonovetsky Digital Manuscript Project Logo")
 
 The Kiselgof-Makonovetsky Digital Manuscript Project (KMDMP) connects musicians, Yiddishists, and scholars today with klezmer musicians from more than 100 years ago through an international digital humanities project that is innovating new forms of public scholarship through accessible online platforms. The project community is digitally notating and translating handwritten music and text collected during the An-ski Ethnographic Expeditions of 1912-1914 and the Makonovetsky Wedding Manuscript, making them accessible to scholars and musicians for further study, computational analysis, and performance. Key features and goals of the project are:
 
@@ -63,6 +63,6 @@ Both the original manuscript images and the digitally notated versions of melodi
 * Capturing marks and annotations (such as check marks and plus signs in blue and red pencil) that will require further study to interpret
 * Developing practical typologies to make search on unnamed melodies useful for musicians and researchers  
 
-    We’ve mentioned along the way that the crowdsourcing and community building aspects of the KMDMP project are informing the Klezmer Archive Project but it is worth emphasizing that designing a tool that will serve this community in useful ways is one of the foundational goals of the archive project. While the Klezmer Archive will serve many communities (researchers, musicians, general public, students) the affinity community around klezmer music and Yiddish culture more broadly will be of critical importance to the success of this tool over time. If successful, the Klezmer Archive will join several core educational and collaborative structures that facilitate transmission of a living culture by adding a set of new digital tools that centers the collaborative work of the community while making that accumulated knowledge available to a wider public audience.  It is our hope that this kind of digital humanities community hub could serve as a model tool to support other musics of oral tradition and community groups centered around ethnic and heritage cultures. 
+    We’ve mentioned along the way that the crowdsourcing and community building aspects of the KMDMP project are informing the Klezmer Archive Project but it is worth emphasizing that designing a tool that will serve this community in useful ways is one of the foundational goals of the archive project. While the Klezmer Archive will serve many communities (researchers, musicians, general public, students) the affinity community around klezmer music and Yiddish culture more broadly will be of critical importance to the success of this tool over time. If successful, the Klezmer Archive will join several core educational and collaborative structures that facilitate transmission of a living culture by adding a set of new digital tools that centers the collaborative work of the community while making that accumulated knowledge available to a wider public audience. It is our hope that this kind of digital humanities community hub could serve as a model tool to support other musics of oral tradition and community groups centered around ethnic and heritage cultures. 
 
     You can read more about both the connections and distinctions between KMDMP and the Klezmer Archive project in a paper presented at the POLIN “What’s New & What’s Next” conference in October 2021 [here](https://klezmerinstitute.org/articles/). Watch this space for posts about specific research areas, experiments, and new developments!
