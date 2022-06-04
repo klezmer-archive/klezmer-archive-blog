@@ -33,8 +33,6 @@ The **Klezmer Archive Project** is creating a new kind of digital humanities arc
 
 The public page for the Klezmer Archive Project is [here](https://klezmerinstitute.org/klezmer-archive/).
 
-
-
 ![](https://lh3.googleusercontent.com/wwgoKodfsnrzxoWFI4WEmLrT_DZiY2PeKVLbnSKfPHVSdNHehzrCVKx_gaMyhoceTSG84Xfzos7H1HtgWdvkkpTHLLaSE-TpBC1yeRmvjRQpMBZ2N16YlCutv8Cil60o_Dxg5fjUz20hy2O9tA)
 
 The **Kiselgof-Makonovetsky Digital Manuscript Project (KMDMP)** connects musicians, Yiddishists, and scholars today with klezmer musicians from more than 100 years ago through an international digital humanities project that is innovating new forms of public scholarship through accessible online platforms. The project community is digitally notating and translating handwritten music and text collected during the An-ski Ethnographic Expeditions of 1912-1914 and the Makonovetsky Wedding Manuscript, making them accessible to scholars and musicians for further study, computational analysis, and performance. Key features and goals of the project are:
@@ -49,7 +47,7 @@ The **Kiselgof-Makonovetsky Digital Manuscript Project (KMDMP)** connects musici
 * In-house admin team (Klezmer Institute)
 * Advisory board comprised of archivists, Yiddishists, & musicians
 
-\    The public page for KMDMP is [here](https://klezmerinstitute.org/KMDMP/).
+The public page for KMDMP is [here](https://klezmerinstitute.org/KMDMP/).
 
 Elaborating these core components demonstrate key distinctions between Klezmer Archive and KMDMP. The Archive project is expansive in vision, timeline, and its intended audience, while KMDMP speaks more specifically to a klezmer music and Yiddish language audience, and is focused on a limited corpus of material. The two projects are interconnected because the KMDMP musical corpus is serving as the “test corpus” for the Klezmer Archive Project team, and the KMDMP volunteer community is a core insider audience that the Klezmer Archive will serve. 
 
