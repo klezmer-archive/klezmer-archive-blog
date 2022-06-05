@@ -2,14 +2,9 @@
   <a href="{{ cond (not .Site.Home.File) .Sites.First.Home.RelPermalink .Site.Home.RelPermalink }}">
     <h1>{{ .Site.Title }}</h1>
   </a>
-  <a href="https://klezmerarchive.org" id="project-site">
-    <h2>Project Site<h2>
-  </a>
   <label for="menu-control">
     <img src="{{ "svg/menu.svg" | relURL }}" class="book-icon" alt="Menu" />
   </label>
-{{ partial "docs/inject/menu-before" . }}
-{{ partial "docs/menu-hugo" .Site.Menus.before }}
 </nav>
 
 <!-- Restore menu position as soon as possible to avoid flickering -->
