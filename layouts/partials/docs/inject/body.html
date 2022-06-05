@@ -1,0 +1,27 @@
+<footer class="ka-footer">
+  <a href="{{ cond (not .Site.Home.File) .Sites.First.Home.RelPermalink .Site.Home.RelPermalink }}">
+    {{- with .Site.Params.BookLogo -}}
+      <img src="{{ . | relURL }}" alt="Logo" />
+    {{- end -}}
+  </a>
+
+  <section class="footer-contents">
+    <dl class="contact">
+      <dt>Contact</dt>
+      <dd>
+        <a href="https://github.com/klezmer-archive">Github</a>
+      </dd>
+
+    </dl>
+    <dl>
+      <dt>Supporters</dt>
+      <dd class="neh">
+        <img src="images/NEH-Preferred-Seal820.jpeg" alt="NEH Seal">
+        <p>
+          This project has been made possible in part by the National Endowment for the Humanities: Democracy demands wisdom.
+        </p>
+      </dd>
+    </dl>
+  </section>
+
+</footer>
