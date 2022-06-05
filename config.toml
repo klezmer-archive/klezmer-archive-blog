@@ -8,7 +8,7 @@ theme = "book"
 [menu]
 [[menu.before]]
   name = "Project Site"
-  url = "https://blog.klezmerarchive.org"
+  url = "https://klezmerarchive.org"
   weight = 10
 
 [params]
