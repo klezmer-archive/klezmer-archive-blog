@@ -5,6 +5,12 @@ title = "Klezmer Archive Blog"
 
 theme = "book"
 
+[menu]
+[[menu.before]]
+  name = "Project Site"
+  url = "https://blog.klezmerarchive.org"
+  weight = 10
+
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
