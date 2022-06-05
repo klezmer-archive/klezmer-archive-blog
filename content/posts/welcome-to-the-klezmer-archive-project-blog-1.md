@@ -6,15 +6,13 @@ description: "In our first post we’d like to briefly describe how The Klezmer
   (KMDMP) relate to each other while being distinct projects with different
   design, audience and objectives. "
 image: /images/uploads/ka-lib-card-logo-left-rule-only.png
+authors:
+  - Christina Crowder
 tags:
   - news
 categories:
   - Klezmer
 ---
-\
-Welcome to the Klezmer Archive Project Blog!! 
-
-By Christina Crowder, 25 May, 2022
 
 In our first post we’d like to briefly describe how The Klezmer Archive Project and the Kiselgof-Makonovetsky Digital Manuscript Project (KMDMP) relate to each other while being distinct projects with different design, audience and objectives. The KMDMP corpus is being used as a “test corpus” for the Klezmer Archive Project, and the crowdsourcing and community-building aspects of the project are informing Klezmer Archive research in the areas of user experience, data ingestion, and ontology building among others. Both projects were startup initiatives of the Klezmer Institute that began in 2020. The Klezmer Archive Project has been funded by a Phase I NEH Digital Humanities Advancement Grant from 2021-2022, while KMDMP is supported solely by individual donations.    
 

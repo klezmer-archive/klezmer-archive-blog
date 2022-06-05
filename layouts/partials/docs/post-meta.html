@@ -1,3 +1,13 @@
+<section class="authors">
+{{ range .Param "authors" }}
+	{{ $name := . }}
+	{{ $path := printf "/%s/%s" "authors" ($name | urlize) }}
+  <a href={{ $path }}>
+    <h5>{{ $name }}</h5>
+  </a>
+{{ end }}
+</section>
+
 {{ with .Date }}
   <h5>{{ partial "docs/date" (dict "Date" . "Format" $.Site.Params.BookDateFormat) }}</h5>
 {{ end }}
