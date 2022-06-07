@@ -8,8 +8,10 @@
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
 
+  <header class="book-header">
+    {{ template "header" . }} <!-- Mobile layout header -->
+  </header>
 
-  {{ partial "docs/topbar" . }} <!-- top navbar content -->
   <header class="banner">
     {{ partial "docs/brand" . }}
   </header>
