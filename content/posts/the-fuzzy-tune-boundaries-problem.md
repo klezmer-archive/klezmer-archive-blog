@@ -46,4 +46,4 @@ Just as a tune artifact does not equal a tune, so too does a tune family not exa
 
 In this early stage of researching and beginning to design the architecture of the Klezmer Archive, we are fortunate to have members of our team with expertise in both library sciences and computer science, as well as deep musical knowledge across the entire team. Discussions like that of Fuzzy Tune Boundaries emerge from this juxtaposition of methodologies.
 
-Please check back for more upcoming posts, join the Klezmer Institute email list to receive updates, and be in touch ([christina@klezmerinstitute.org](mail@christina@klezmerinstitute.org)) if you have thoughts or questions to share with the Klezmer Archive team!
+Please check back for more upcoming posts, join the Klezmer Institute email list to receive updates, and be in touch (christina@klezmerinstitute.org) if you have thoughts or questions to share with the Klezmer Archive team!
