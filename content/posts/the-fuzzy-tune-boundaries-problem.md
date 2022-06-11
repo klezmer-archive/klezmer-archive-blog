@@ -36,6 +36,8 @@ We plan to store our data as a knowledge graph — a network consisting of real-
 
 ![](/images/uploads/screen-shot-2022-06-10-at-6.45.00-pm.png)
 
+*Figure 1: An example graph from our team's experiments with The Networker (https://www.infoloom.com/)*
+
 We can define a “tune artifact” as any input to our system, represented as a single node in our graph. An artifact can be a specific transcription, a recording, or any other type of data that relates to a specific instance of a tune. At this level, it’s important to distinguish that a tune artifact is not equivalent to a tune.
 
 Then, we can begin to define all the ways in which tune artifacts relate to each other, which become the edges of our graph. These relationships fall into some broad categories, namely performance/dance function, musicological function, and social function. Specific edge relationships can include: genre; performances of a tune artifact (e.g. a recording of a specific Beregovski tune); performance notes; medleys; albums; and derived melodic, harmonic, and rhythmic similarities. For certain relationships, an “edge weight” (a number attached to an edge) can represent how closely related two tune artifacts are. For example, we might define a function that calculates how similar a pair of transcriptions is and assigns a number in the range 0 to 1 to reflect completely different to completely identical note sequences.
