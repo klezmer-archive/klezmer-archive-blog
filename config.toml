@@ -2,6 +2,7 @@
 baseURL = "blog.klezmerarchive.org"
 languageCode = "en-us"
 title = "Klezmer Archive Blog"
+enableRobotsTXT = true
 
 theme = "book"
 
