@@ -2,7 +2,7 @@
 title: Towards Documenting Human Relationships
 date: 2022-06-15T15:39:07.105Z
 authors:
-  - ClaraByom
+  - Clara Byom
 description: The human relationship concept allows people to be connected in the
   data in a way that more accurately reflects how cultural knowledge is
   exchanged—through mentorships, within families, between bandmates, via private
