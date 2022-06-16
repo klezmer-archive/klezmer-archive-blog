@@ -36,6 +36,8 @@ The human relationship concept allows people to be connected in the data in a wa
 \
 Let's look at the Song Concept: Di Sapozhkelekh to get an idea of the proliferation of this tune. I've only put a handful of the dozens of commercially recorded versions in Networker so far and I have not noted human relationships throughout these expressions, but some of these are recordings from folks who likely learned it from Bronya at a KlezKamp Workshop in 1985. Others have learned it from recordings by those folks or in workshops with them in the years following Bronya's passing. When those relationships can be added in, it will become more possible to see how the song traveled throughout the community.
 
+(Images from experiments in Infoloom's Networker.)
+
 ![](/images/uploads/mentorship-concept-2.jpg)
 
 By using human relationship concepts, we will be able to see both breadth and depth — an individual's web of connection and the quality of the relationship. We are in the early stages of working with this concept, but are hopeful that it will be useful not only for our work, but especially for musics of oral tradition broadly and other folklore collections.
