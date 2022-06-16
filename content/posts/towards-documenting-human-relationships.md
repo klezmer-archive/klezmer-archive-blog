@@ -29,14 +29,14 @@ Let's take a look at a specific song that was learned from Bronya Sakina and now
 
 I am proposing that we can create a “Relationship Concept,” in this instance a “Mentorship Concept,” which connects to the concepts that include both Bronya and Michael (for example the Alpert004 and Alpert005 field work concepts here, which are arbitrary but distinguishing labels for a specific cassette tape that can contain specific metadata about that item) AND to expressions that are informed by the relationship. Therefore, via connection to the field work concepts we have events (and duration of the relationship) and expressions.
 
-![](/images/uploads/mentorship-concept-1.png)
+![](/images/uploads/mentorship-concept-1.png "Experiment in Infoloom's Networker")
 
 The human relationship concept allows people to be connected in the data in a way that more accurately reflects how cultural knowledge is exchanged—through mentorships, within families, between bandmates, via private lessons, etc.  Human relationship concepts not only allow us to see how tunes migrate throughout the contemporary klezmer and Yiddish song community, but also recognize the importance of certain individuals as culture bearers and teachers that might otherwise be difficult to see in a graph. For example, many of the most renowned klezmer teachers have a relatively small recorded catalog. If we document only the "artifacts" (i.e. recordings, tune books, concerts, etc.) of Ashkenazic expressive culture, we may not recognize that a teacher has taught hundreds of students dozens of tunes, leading to certain tunes becoming part of the contemporary klezmer canon. 
 
 \
 Let's look at the Song Concept: Di Sapozhkelekh to get an idea of the proliferation of this tune. I've only put a handful of the dozens of commercially recorded versions in Networker so far and I have not noted human relationships throughout these expressions, but some of these are recordings from folks who likely learned it from Bronya at a KlezKamp Workshop in 1985. Others have learned it from recordings by those folks or in workshops with them in the years following Bronya's passing. When those relationships can be added in, it will become more possible to see how the song traveled throughout the community.
 
-![](/images/uploads/mentorship-concept-2.jpg)
+![](/images/uploads/mentorship-concept-2.jpg "Experiment in Infoloom's Networker")
 
 By using human relationship concepts, we will be able to see both breadth and depth — an individual's web of connection and the quality of the relationship. We are in the early stages of working with this concept, but are hopeful that it will be useful not only for our work, but especially for musics of oral tradition broadly and other folklore collections.
 
