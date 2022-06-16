@@ -19,7 +19,7 @@ categories:
 Towards Documenting Human Relationships\
 Clara Byom, June 2022\
 \
-**\*"A song is the past, present, and future, because all that is life is in these songs. Right now my songs are the present, but they are the future as well - your future. Your children will also sing these songs, and you'll tell them that once there was an Aunt Bronya, and she sang songs like this!"** - Bronya Sakina*
+**"A song is the past, present, and future, because all that is life is in these songs. Right now my songs are the present, but they are the future as well - your future. Your children will also sing these songs, and you'll tell them that once there was an Aunt Bronya, and she sang songs like this!"** - Bronya Sakina
 
 As part of my internship work at the Center for Traditional Music and Dance, I had the honor of digitizing the field recordings of 2015 NEA National Heritage Fellow Michael Alpert— renowned Yiddish singer, multi-instrumentalist, dancer, and researcher. Having an intimate knowledge of his work, I was interested in seeing it mapped out in Networker. His work is a perfect example of oral transmission and exposes some key places to expand our ontology. 
 
