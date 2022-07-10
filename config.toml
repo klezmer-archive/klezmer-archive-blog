@@ -12,6 +12,11 @@ theme = "book"
   url = "https://klezmerarchive.org"
   weight = 10
 
+[[menu.after]]
+  name = "RSS feed"
+  url = "posts/index.xml"
+  weight = 10
+
 [taxonomies]
 	author = "authors"
 	tag = "tags"
