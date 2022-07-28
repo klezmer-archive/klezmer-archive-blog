@@ -10,6 +10,6 @@ categories:
 ---
 # Hi this is a title
 
-and some content[^1]
+and some content[^1].
 
-[^1]: footnote
+[^1]: footnote here
