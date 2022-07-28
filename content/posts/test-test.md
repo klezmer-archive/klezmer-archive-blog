@@ -14,4 +14,6 @@ and some content[^1].
 
 [^1]: footnote here
 
-some more text later to see what that's like
+some more text later to see what that's like[^2]
+
+[^2]: yo
