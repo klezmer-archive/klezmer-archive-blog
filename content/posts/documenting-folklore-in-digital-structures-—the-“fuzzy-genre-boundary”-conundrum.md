@@ -1,5 +1,5 @@
 ---
-title: "Documenting Folklore in Digital Structures —The “Fuzzy Genre Boundary”
+title: "Documenting Folklore in Digital Structures —The Fuzzy Genre Boundary
   Conundrum "
 date: 2022-10-24T18:53:45.621Z
 authors:
