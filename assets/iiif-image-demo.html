@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" />
   <style>
-    form > div, fieldset > div.controls {
+    form > div.grid-range, fieldset > div.controls {
       display: grid;
       grid-template-columns: min-content min-content auto;
     }
@@ -34,19 +34,31 @@
       width: 3em;
       text-align: right;
     }
+    .segmented-container {
+      display: flex;
+    }
+    .segmented {
+      border: solid;
+      border-color: rgb(137, 136, 136);
+    }
+    .fieldlabel {
+      font-weight: 600;
+      padding-right: 1em;
+    }
     .segmented input {
       display: none;
     }
     .segmented label {
-      border-style: solid;
-      border-width: 1px;
-      border-radius: 8px;
       display: inline-block;
       text-align: center;
       padding: 0 1em;
     }
     .segmented input:checked + label {
       background-color: rgb(209, 208, 208);
+    }
+    button {
+      margin-top: 1em;
+      border-radius: 5px
     }
   </style>
   <title>IIIF Image API demo</title>
@@ -55,7 +67,7 @@
 <body>
   <h1>IIIF Image API</h1>
   <form onsubmit="onSubmit(event)">
-    <div>
+    <div class="grid-range">
       <label for="rotation">Rotation</label>
       <input id="rotation" type="range" max="360" name="rotation" value="0" oninput="updateDisplay(this)">
       <span>
@@ -92,17 +104,17 @@
           </span>
       </div>
     </fieldset>
-    <fieldset>
-      <div>Quality</div>
+    <div class="segmented-container">
+      <div class="fieldlabel">Quality</div>
       <div class="segmented">
         <input type="radio" id="quality-default" name="quality" value="default" checked>
         <label for="quality-default">Color</label>
-        <input type="radio" id="quality-grey" name="quality" value="grey">
-        <label for="quality-grey">Grey</label>
+        <input type="radio" id="quality-gray" name="quality" value="gray">
+        <label for="quality-gray">Gray</label>
         <input type="radio" id="quality-bitonal" name="quality" value="bitonal">
         <label for="quality-bitonal">Black & White</label>
       </div>
-    </fieldset>
+    </div>
     <button type="submit">Update</button>
   </form>
   <img id="iiif-preview">
@@ -124,12 +136,12 @@
   function onSubmit(event) {
     event.preventDefault();
     vals = Object.fromEntries(Array.from(document.querySelectorAll('form input')).map(el => [el.name, el.value]));
-    console.log(vals);
+    quality = Array.from(document.querySelectorAll('input[name="quality"]')).find(el => el.checked).value
     render(
       'kmdmp-kiselgof-58-0037',
       `pct:${vals.regionX},${vals.regionY},${vals.regionWidth},${vals.regionHeight},`,
       vals.rotation,
-      'default'
+      quality,
     )
   }
 
