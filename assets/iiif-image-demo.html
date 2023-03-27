@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" />
+  <style>
+    form > div, fieldset > div.controls {
+      display: grid;
+      grid-template-columns: min-content min-content auto;
+    }
+    form label {
+      margin: 0;
+      padding-right: 1em;
+    }
+    form input {
+      margin: 0;
+      padding: 0;
+    }
+    form output {
+      padding-left: 1em;
+    }
+    fieldset {
+      border: 0;
+      padding-left: 0;
+    }
+    fieldset div:not(:first-child) {
+      padding-left: 1em;
+    }
+    input[type="number"] {
+      margin-left: 1em;
+      width: 3em;
+      text-align: right;
+    }
+    .segmented input {
+      display: none;
+    }
+    .segmented label {
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 8px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 1em;
+    }
+    .segmented input:checked + label {
+      background-color: rgb(209, 208, 208);
+    }
+  </style>
+  <title>IIIF Image API demo</title>
+</head>
+
+<body>
+  <h1>IIIF Image API</h1>
+  <form onsubmit="onSubmit(event)">
+    <div>
+      <label for="rotation">Rotation</label>
+      <input id="rotation" type="range" max="360" name="rotation" value="0" oninput="updateDisplay(this)">
+      <span>
+        <input type="number" value="0" oninput="updateControl(this)"></input>
+        °
+      </span>
+    </div>
+    <fieldset>
+      <div>Region</div>
+      <div class="controls">
+          <label for="region-x">x</label>
+          <input id="region-x" type="range" max="100" name="regionX" value="0" oninput="updateDisplay(this)">
+          <span>
+            <input type="number" value="0" oninput="updateControl(this)"></input>
+            %
+          </span>
+          <label for="region-y">y</label>
+          <input id="region-y" type="range" max="100" name="regionY" value="0" oninput="updateDisplay(this)">
+          <span>
+            <input type="number" value="0" oninput="updateControl(this)"></input>
+            %
+          </span>
+          <label for="region-width">width</label>
+          <input id="region-width" type="range" max="100" name="regionWidth" value="100" oninput="updateDisplay(this)">
+          <span>
+            <input type="number" value="100" oninput="updateControl(this)"></input>
+            %
+          </span>
+          <label for="region-height">height</label>
+          <input id="region-height" type="range" max="100" name="regionHeight" value="100" oninput="updateDisplay(this)">
+          <span>
+            <input type="number" value="100" oninput="updateControl(this)"></input>
+            %
+          </span>
+      </div>
+    </fieldset>
+    <fieldset>
+      <div>Quality</div>
+      <div class="segmented">
+        <input type="radio" id="quality-default" name="quality" value="default" checked>
+        <label for="quality-default">Color</label>
+        <input type="radio" id="quality-grey" name="quality" value="grey">
+        <label for="quality-grey">Grey</label>
+        <input type="radio" id="quality-bitonal" name="quality" value="bitonal">
+        <label for="quality-bitonal">Black & White</label>
+      </div>
+    </fieldset>
+    <button type="submit">Update</button>
+  </form>
+  <img id="iiif-preview">
+</body>
+
+<script>
+  function updateDisplay(el) {
+    el.nextElementSibling.getElementsByTagName('input')[0].value = el.value;
+  }
+
+  function updateControl(el) {
+    el.parentElement.previousElementSibling.value = el.value;
+  }
+
+  function render(imageId, region, rotation, quality) {
+    document.getElementById('iiif-preview').src = `https://images.klezmerarchive.org/iiif/3/${imageId}/${region}/pct:20/${rotation}/${quality}.jpg`
+  }
+
+  function onSubmit(event) {
+    event.preventDefault();
+    vals = Object.fromEntries(Array.from(document.querySelectorAll('form input')).map(el => [el.name, el.value]));
+    console.log(vals);
+    render(
+      'kmdmp-kiselgof-58-0037',
+      `pct:${vals.regionX},${vals.regionY},${vals.regionWidth},${vals.regionHeight},`,
+      vals.rotation,
+      'default'
+    )
+  }
+
+  // render(
+  //   'kmdmp-kiselgof-58-0037',
+  //   'full',
+  //   '0',
+  //   'default',
+  // )
+</script>
+
+</html>
