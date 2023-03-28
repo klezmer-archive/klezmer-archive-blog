@@ -7,55 +7,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" />
   <style>
-    form > div.grid-range, fieldset > div.controls {
-      display: grid;
-      grid-template-columns: min-content min-content auto;
+    form {
+      margin-bottom: 1em;
     }
+
+    div.grid-range {
+      display: grid;
+      grid-template-columns: max-content min-content auto;
+      margin-bottom: 1em;
+    }
+
     form label {
       margin: 0;
       padding-right: 1em;
     }
+
     form input {
       margin: 0;
       padding: 0;
     }
+
     form output {
       padding-left: 1em;
     }
-    fieldset {
-      border: 0;
-      padding-left: 0;
-    }
-    fieldset div:not(:first-child) {
-      padding-left: 1em;
-    }
+
     input[type="number"] {
       margin-left: 1em;
       width: 3em;
       text-align: right;
     }
-    .segmented-container {
-      display: flex;
-    }
-    .segmented {
-      border: solid;
-      border-color: rgb(137, 136, 136);
-    }
+
     .fieldlabel {
       font-weight: 600;
       padding-right: 1em;
     }
-    .segmented input {
-      display: none;
+
+    .segmented-container {
+      display: flex;
     }
+
+    .segmented {
+      border: solid;
+      border-color: rgb(137, 136, 136);
+    }
+
+    .segmented input {
+      /* display: none; */
+      /* Doing it this way makes it accessible */
+      margin-left: -2rem;
+      opacity: 0;
+      position: absolute;
+    }
+
     .segmented label {
       display: inline-block;
       text-align: center;
       padding: 0 1em;
     }
-    .segmented input:checked + label {
+
+    .segmented input:checked+label {
       background-color: rgb(209, 208, 208);
     }
+
     button {
       margin-top: 1em;
       border-radius: 5px
@@ -66,7 +79,7 @@
 
 <body>
   <h1>IIIF Image API</h1>
-  <form onsubmit="onSubmit(event)">
+  <form onsubmit="event.preventDefault(); onSubmit()">
     <div class="grid-range">
       <label for="rotation">Rotation</label>
       <input id="rotation" type="range" max="360" name="rotation" value="0" oninput="updateDisplay(this)">
@@ -74,39 +87,31 @@
         <input type="number" value="0" oninput="updateControl(this)"></input>
         °
       </span>
+      <label for="zoom">Zoom</label>
+      <input id="zoom" type="range" max="100" name="zoom" value="0" oninput="updateDisplay(this); updateZoom(this)">
+      <span>
+        <input type="number" value="0" oninput="updateControl(this); updateZoom(this)"></input>
+        %
+      </span>
+      <!-- The pan controls start disabled: you can't pan if you're zoomed all the way out -->
+      <label for="region-x" style="visibility: hidden;">Move left/right</label>
+      <input id="region-x" type="range" max="100" name="regionX" value="0" style="visibility: hidden;"
+        oninput="updateDisplay(this)">
+      <span style="visibility: hidden;">
+        <input type="number" value="0" oninput="updateControl(this)"></input>
+        %
+      </span>
+      <label for="region-y" style="visibility: hidden;">Move up/down</label>
+      <input id="region-y" type="range" max="100" name="regionY" value="0" style="visibility: hidden;"
+        oninput="updateDisplay(this)">
+      <span style="visibility: hidden;">
+        <input type="number" value="0" oninput="updateControl(this)"></input>
+        %
+      </span>
     </div>
-    <fieldset>
-      <div>Region</div>
-      <div class="controls">
-          <label for="region-x">x</label>
-          <input id="region-x" type="range" max="100" name="regionX" value="0" oninput="updateDisplay(this)">
-          <span>
-            <input type="number" value="0" oninput="updateControl(this)"></input>
-            %
-          </span>
-          <label for="region-y">y</label>
-          <input id="region-y" type="range" max="100" name="regionY" value="0" oninput="updateDisplay(this)">
-          <span>
-            <input type="number" value="0" oninput="updateControl(this)"></input>
-            %
-          </span>
-          <label for="region-width">width</label>
-          <input id="region-width" type="range" max="100" name="regionWidth" value="100" oninput="updateDisplay(this)">
-          <span>
-            <input type="number" value="100" oninput="updateControl(this)"></input>
-            %
-          </span>
-          <label for="region-height">height</label>
-          <input id="region-height" type="range" max="100" name="regionHeight" value="100" oninput="updateDisplay(this)">
-          <span>
-            <input type="number" value="100" oninput="updateControl(this)"></input>
-            %
-          </span>
-      </div>
-    </fieldset>
     <div class="segmented-container">
       <div class="fieldlabel">Quality</div>
-      <div class="segmented">
+      <div class="segmented" role="" radiogroup>
         <input type="radio" id="quality-default" name="quality" value="default" checked>
         <label for="quality-default">Color</label>
         <input type="radio" id="quality-gray" name="quality" value="gray">
@@ -115,8 +120,13 @@
         <label for="quality-bitonal">Black & White</label>
       </div>
     </div>
-    <button type="submit">Update</button>
+    <button type="submit">Update Image</button>
   </form>
+  <div class="nav">
+    <button id="prev-img" onclick="stepImg(-1)">←</button>
+    <select id="img-select" oninput="updateImageNavButtons(); onSubmit()"></select>
+    <button id="next-img" onclick="stepImg(1)">→</button>
+  </div>
   <img id="iiif-preview">
 </body>
 
@@ -129,28 +139,96 @@
     el.parentElement.previousElementSibling.value = el.value;
   }
 
-  function render(imageId, region, rotation, quality) {
-    document.getElementById('iiif-preview').src = `https://images.klezmerarchive.org/iiif/3/${imageId}/${region}/pct:20/${rotation}/${quality}.jpg`
+  function render(imageId, region, size, rotation, quality) {
+    document.getElementById('iiif-preview').src = `https://images.klezmerarchive.org/iiif/3/${imageId}/${region}/${size}/${rotation}/${quality}.jpg`
   }
 
-  function onSubmit(event) {
-    event.preventDefault();
-    vals = Object.fromEntries(Array.from(document.querySelectorAll('form input')).map(el => [el.name, el.value]));
-    quality = Array.from(document.querySelectorAll('input[name="quality"]')).find(el => el.checked).value
+  function updateZoom(el) {
+    const xSlider = document.querySelector('input[name="regionX"]');
+    const ySlider = document.querySelector('input[name="regionY"]');
+    const xNum = xSlider.nextElementSibling.getElementsByTagName('input')[0]
+    const yNum = ySlider.nextElementSibling.getElementsByTagName('input')[0]
+    if (el.value == "0") {
+      xSlider.style.visibility = 'hidden';
+      xSlider.previousElementSibling.style.visibility = 'hidden';
+      xSlider.nextElementSibling.style.visibility = 'hidden';
+      xSlider.value = 0;
+      xNum.value = 0;
+      ySlider.style.visibility = 'hidden';
+      ySlider.previousElementSibling.style.visibility = 'hidden';
+      ySlider.nextElementSibling.style.visibility = 'hidden';
+      ySlider.value = 0;
+      yNum.value = 0;
+    } else {
+      xSlider.style.visibility = 'visible';
+      xSlider.previousElementSibling.style.visibility = 'visible';
+      xSlider.nextElementSibling.style.visibility = 'visible';
+      ySlider.style.visibility = 'visible';
+      ySlider.previousElementSibling.style.visibility = 'visible';
+      ySlider.nextElementSibling.style.visibility = 'visible';
+    }
+  }
+
+  function onSubmit() {
+    // 0% zoom == 100% size, 100% zoom = 20% size
+    const zoom = parseInt(document.querySelector('input[name="zoom"]').value)
+    const wh = Math.round(20 + 80 * (1 - zoom / 100))
+    const size = Math.round(20 + 80 * (zoom / 100))
+
+    const rawx = parseInt(document.querySelector('input[name="regionX"]').value)
+    const rawy = parseInt(document.querySelector('input[name="regionY"]').value)
+    const x = Math.round((rawx / 100) * (zoom / 100 * 80))
+    const y = Math.round((rawy / 100) * (zoom / 100 * 80))
+
+    const quality = Array.from(document.querySelectorAll('input[name="quality"]')).find(el => el.checked).value
+    const rotation = document.querySelector('input[name="rotation"]').value
+
+    const img = document.getElementById('img-select').selectedOptions[0].value
+
     render(
-      'kmdmp-kiselgof-58-0037',
-      `pct:${vals.regionX},${vals.regionY},${vals.regionWidth},${vals.regionHeight},`,
-      vals.rotation,
+      img,
+      `pct:${x},${y},${wh},${wh}`,
+      `pct:${size}`,
+      rotation,
       quality,
     )
   }
 
-  // render(
-  //   'kmdmp-kiselgof-58-0037',
-  //   'full',
-  //   '0',
-  //   'default',
-  // )
+  const images = [...Array(49).keys()].map(n => `kmdmp-kiselgof-58-${String(n + 1).padStart(4, '0')}`);
+
+  function renderSelect() {
+    const select = document.getElementById('img-select');
+    for (const img of images) {
+      const opt = document.createElement('option');
+      opt.value = img;
+      opt.textContent = img;
+      select.appendChild(opt);
+    }
+  }
+
+  function updateImageNavButtons() {
+    const prev = document.querySelector('#prev-img');
+    const next = document.querySelector('#next-img');
+    const select = document.querySelector('#img-select');
+    prev.disabled = false;
+    next.disabled = false;
+    if (select.selectedIndex == 0) {
+      prev.disabled = true;
+    } else if (select.selectedIndex == select.length - 1) {
+      next.disabled = true;
+    }
+  }
+
+  function stepImg(dir) {
+    const select = document.querySelector('#img-select');
+    select.selectedIndex += dir;
+    updateImageNavButtons();
+    onSubmit();
+  }
+
+  renderSelect();
+  updateImageNavButtons();
+  onSubmit();
 </script>
 
 </html>
