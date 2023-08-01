@@ -18,9 +18,9 @@ tags:
 categories:
   - Klezmer
 ---
-The Klezmer Archive Project team is delighted to announce the public release of the Klezmer Archive DHAG Phase I White paper. 
+The Klezmer Archive Project team is delighted to announce the public release of the Klezmer Archive DHAG Phase I White paper. Please be in touch with any questions or comments. We'd love to talk to you about our work. 
 
-You can download the PDF at this link: <https://tinyurl.com/y2fmwbu5>
+You can download the PDF at this link: https://tinyurl.com/5a68syh2
 
 1. Abstract
 
