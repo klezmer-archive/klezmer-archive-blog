@@ -20,9 +20,9 @@ categories:
 ---
 The Klezmer Archive Project team is delighted to announce the public release of the Klezmer Archive DHAG Phase I White paper. Please be in touch with any questions or comments. We'd love to talk to you about our work. 
 
-You can download the PDF at this link: https://tinyurl.com/5a68syh2
+You can download the PDF at this link: https://tinyurl.com/y7k54vbr
 
-1. Abstract
+**Abstract**
 
 The Klezmer Archive (KA) project is creating a universally accessible digital archival tool for interaction, discovery, and research on available information about klezmer music\
 and its network of contemporary and historical people. Taking individual melodies as\
