@@ -12,7 +12,7 @@ authors:
   - Schyler Versteeg
 description: "Read the White Paper covering our NEH DHAG Phase I work on the
   Klezmer Archive plan. "
-image: /images/uploads/white-paper-graphic-square.png
+image: /images/uploads/white-paper-graphic-twitter.png
 tags:
   - news
 categories:
