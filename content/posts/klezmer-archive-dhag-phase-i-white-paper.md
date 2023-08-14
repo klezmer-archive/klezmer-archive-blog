@@ -12,7 +12,7 @@ authors:
   - Schyler Versteeg
 description: "Read the White Paper covering our NEH DHAG Phase I work on the
   Klezmer Archive plan. "
-image: /images/uploads/pxl_20220612_002332099.jpg
+image: /images/uploads/white-paper-graphic-square.png
 tags:
   - news
 categories:
@@ -22,9 +22,7 @@ The Klezmer Archive Project team is delighted to announce the public release of 
 
 Read more about the project at the [Klezmer Archive Page](https://klezmerinstitute.org/klezmerarchive/)
 
-You can download the PDF at this link: https://tinyurl.com/y7k54vbr
-
-**Abstract**
+You can [download the PDF here](https://klezmerinstitute.org/wp-content/uploads/2023/08/2023-Klezmer-Archive-DHAG-I-White-Paper-—-Final-8-4.pdf).
 
 The Klezmer Archive (KA) project is creating a universally accessible digital archival tool for interaction, discovery, and research on available information about klezmer music\
 and its network of contemporary and historical people. Taking individual melodies as\
