@@ -1,15 +1,8 @@
 ---
 title: "Klezmer Archive DHAG Phase I White Paper "
-date: 2023-07-19T20:07:53.459Z
+date: 2023-08-15T20:07:53.459Z
 authors:
-  - Clara Byom
-  - Eléonore Biezunski
-  - Christina Crowder
-  - Dan Kunda Thagard
-  - Yonatan Malin
-  - Max Rothman
-  - Matthew Stein
-  - Schyler Versteeg
+  - The Klezmer Archive Team
 description: "Read the White Paper covering our NEH DHAG Phase I work on the
   Klezmer Archive plan. "
 image: /images/uploads/white-paper-graphic-twitter.png
