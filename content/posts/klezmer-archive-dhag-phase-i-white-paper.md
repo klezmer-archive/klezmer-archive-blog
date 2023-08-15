@@ -1,6 +1,6 @@
 ---
 title: "Klezmer Archive DHAG Phase I White Paper "
-date: 2023-08-15T20:07:53.459Z
+date: 2023-08-15T14:00:00.000Z
 authors:
   - The Klezmer Archive Team
 description: "Read the White Paper covering our NEH DHAG Phase I work on the
