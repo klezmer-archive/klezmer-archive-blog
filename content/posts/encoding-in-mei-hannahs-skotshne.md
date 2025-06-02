@@ -2,7 +2,7 @@
 title: "Encoding in MEI: \"Hannah's Skotshne\""
 date: 2025-06-02T16:39:54.646Z
 authors:
-  - ClaraByom
+  - Clara Byom
 description: "Encoding annotations, different readings, and more! (You don't
   need to code to understand this blog post!) "
 tags:
