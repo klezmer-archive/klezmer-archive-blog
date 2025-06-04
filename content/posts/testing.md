@@ -11,4 +11,6 @@ categories:
 ---
 That's some text with a footnote.[^1]
 
+Blah blah
+
 [^1]: And that's the footnote.
