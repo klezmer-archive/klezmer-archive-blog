@@ -7,3 +7,4 @@ public/
 
 shell.nix
 .envrc
+.direnv
