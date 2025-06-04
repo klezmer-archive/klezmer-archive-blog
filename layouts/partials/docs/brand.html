@@ -1,4 +1,4 @@
-<a class="logo" href="{{ cond (not .Site.Home.File) .Sites.First.Home.RelPermalink .Site.Home.RelPermalink }}">
+<a class="logo" href="{{ cond (not .Site.Home.File) .Sites.Default.Home.RelPermalink .Site.Home.RelPermalink }}">
   {{- with .Site.Params.BookLogo -}}
   <img src="{{ . | relURL }}" alt="Logo" />
   {{- end -}}
