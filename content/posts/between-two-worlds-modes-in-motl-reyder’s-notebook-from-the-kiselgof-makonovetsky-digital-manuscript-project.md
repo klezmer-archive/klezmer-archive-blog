@@ -5,6 +5,7 @@ date: 2025-06-02T15:56:47.148Z
 authors:
   - Yonatan Malin
 description: A Close Look at Klezmer Modes in the Motl Reyder's Heft
+image: /images/uploads/1.png
 tags:
   - analysis
 categories:
@@ -18,7 +19,7 @@ I will focus on a subset of the larger KMDMP collection: eighty-five tunes in a 
 
 In thinking about modes in this repertoire, I am thinking not only about pitch collections and central pitches or "tonics," which can be represented in scales. I am thinking also about characteristic melodic figures, chromatic alterations, cadences, and modulation pathways—i.e., moves between related modes. (Harold Powers outlines this broader definition in a classic article; see Powers et al. 2001, I.3.) The modes thus include things that klezmer musicians know intuitively from experience, the patterns that are part of muscle memory because they occur throughout the repertoire. And exploring the modes is important for understanding the melodic language of klezmer music and Ashkenazic expressive culture more broadly.
 
-I will assume a basic understanding of four modes: (1) freygish or ahava rabboh, (2) misheberakh or altered Dorian, also referred to in some sources as the raised fourth mode, (3) minor or mogen ovos, and (4) major or adonoy molokh. The minor and major modes at times overlap with those of Western European tonality and at times differ, reflecting more of the modal characteristics of traditional nusach and cantorial repertoire.1
+I will assume a basic understanding of four modes: (1) freygish or ahava rabboh, (2) misheberakh or altered Dorian, also referred to in some sources as the raised fourth mode, (3) minor or mogen ovos, and (4) major or adonoy molokh. The minor and major modes at times overlap with those of Western European tonality and at times differ, reflecting more of the modal characteristics of traditional nusach and cantorial repertoire. [^1]
 
 # Overview of Modes and Genres in Motl Reyder's Notebook
 
@@ -50,7 +51,7 @@ Klezmer tunes sometimes stay in a single mode throughout. And sometimes they "mo
 
 ![Example 4. Modulation Pathways from Freygish in Beregovski's Instrumental Volume (first modulation)](/images/uploads/image004.png "Example 4. Modulation Pathways from Freygish in Beregovski's Instrumental Volume (first modulation)")
 
-Individual tunes following each pathway can be found on the Mode Analysis page from the "Modes in Klezmer" website. Thus, if we enter "G freygish" in the box under the mode column and "F major" (with quotation marks) in the box under modulation_pathway, we find all the tunes that include F major as a secondary mode. The Freylekhs no. 87 is a classic example; it can be heard in a recording by Abe Schwartz's Orchestra on Columbia records, circa 1918. Listen for the shift to F major is section B, at 0:19 on the recording.
+Individual tunes following each pathway can be found on the Mode Analysis page from the "Modes in Klezmer" website. Thus, if we enter "G freygish" in the box under the mode column and "F major" (with quotation marks) in the box under modulation_pathway, we find all the tunes that include F major as a secondary mode. The Freylekhs no. 87 is a classic example; it can be heard in a [recording by Abe Schwartz's Orchestra on Columbia records](https://digital.library.wisc.edu/1711.dl/52YLJG6XIZOQO8F), circa 1918. Listen for the shift to F major is section B, at 0:19 on the recording. [^2]
 
 What about the modulations in Motl Reyder's notebook? Many of them follow the same pathways. Example 5 shows the modulations from the freygish mode in Motl Reyder's tunes. In this case, the tunes are notated with a variety of pitch centers (not only in G), so I show the pathways with Roman numerals and mode names. It is a more limited set; there are only ten freygish tunes that modulate in Motl Reyder's notebook. But once again, the move to iv minor is most common. Tunes with particular pathways can be found on the Motl Reyder Mode Analysis Table: filter first by mode and then by Mode pathway. The Skotshne no.1043 (KMDMP 02-37-1043) follows the path I freygish to VII major—the same path as in Beregovski's Freylekhs no. 87 mentioned above.
 
@@ -82,20 +83,28 @@ In thinking about the association with military bands, Christina cited the Bulga
 
 This Bulgar and the entirety of Motl Reyder's notebook document a meeting of worlds in the changing Ashkenazi culture of the time. Motl Reyder was seventy years old in 1913, when he passed the notebook on to Susman Kiselgof. He witnessed the evolving Ashkenazi culture through his life, performed it in his music, and documented it in his notebook of tunes that we are so lucky now to explore and enjoy.
 
+[^1]: For more background information, see Sapoznik and Sokolow 1987, Horowitz 1993, Beregovski 2015, I-23 to I-28; Netsky 2015, 101–5; and Rubin 2020, 122–26.
+
+[^2]: I will present the network diagram in Example 4 and others like it in an article co-authored with Daniel Shanahan, forthcoming in *Music Theory Online* (Malin and Shanahan forthcoming). Joshua Horowitz documented similar modal pathways in an article from 1993. And Joel Rubin provides a comprehensive catalog of the modulation pathways in recordings by Naftule Brandwein and Dave Tarras in his book *New York Klezmer in the Early 20th Century* (2020) and his dissertation (2001).
+
+
+
 # References
 
-Beregovski, Moshe. 2015. Jewish Instrumental Folk Music: The Collections and Writings of Moshe Beregovski. Edited by Mark Slobin, Michael Alpert, and Robert Rothstein. Second edition, Revised by Kurt Björling. Draft 3.4.
+Beregovski, Moshe. 2015. *Jewish Instrumental Folk Music: The Collections and Writings of Moshe Beregovski.* Edited by Mark Slobin, Michael Alpert, and Robert Rothstein. Second edition, Revised by Kurt Björling. Draft 3.4.
 
-Feldman, Walter Zev. Klezmer: Music, History, and Memory. New York: Oxford University Press, 2016.
+Feldman, Walter Zev. *Klezmer: Music, History, and Memory.* New York: Oxford University Press, 2016.
 
 Horowitz, Joshua. 1993. "The Klezmer Freygish Shteyger: Mode, Sub-Mode and Modal Progression." Unpublished manuscript. http://www.budowitz.com/Budowitz/Essays.html.
 
+Malin, Yonatan and Daniel Shanahan. Forthcoming. “Modes in Klezmer Music: A Corpus Study Based on Beregovski’s *Jewish Instrumental Folk*.” *Music Theory Online* 31, no. 3. 
+
 Mishiro, Mariko. 2021. "Jewish Folk Music of the Early 20th Century in Ukraine as Seen in Zusman Kiselgof's Manuscripts: Focusing on Klezmer Music." KMDMP Anniversary Digitizathon (online). https://www.youtube.com/watch?v=-0QSj9xdtbc.
 
-Netsky, Hankus. 2015. Klezmer: Music and Community in Twentieth-Century Jewish Philadelphia. Philadelphia: Temple University Press.
+Netsky, Hankus. 2015. *Klezmer: Music and Community in Twentieth-Century Jewish Philadelphia.* Philadelphia: Temple University Press.
 
 Rubin, Joel. 2001. "The Art of the Klezmer: Improvisation and Ornamentation in the Commercial Recordings of New York Clarinetists Naftule Brandwein and Dave Tarras, 1922–1929." City University, London.
 
-———. 2020. New York Klezmer in the Early Twentieth Century: The Music of Naftule Brandwein and Dave Tarras. Rochester: University of Rochester Press.
+———. 2020. *New York Klezmer in the Early Twentieth Century: The Music of Naftule Brandwein and Dave Tarras.* Rochester: University of Rochester Press.
 
-Sapoznik, Henry, and Pete Sokolow, eds. 1987. The Compleat Klezmer. Cedarhust, N.Y: Tara Publications.
+Sapoznik, Henry, and Pete Sokolow, eds. 1987. *The Compleat Klezmer.* Cedarhust, N.Y: Tara Publications.
