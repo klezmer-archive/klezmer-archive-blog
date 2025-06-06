@@ -56,9 +56,25 @@ Once we’ve encoded more of the KMDMP corpus in MEI, the future Klezmer Archive
 
 For those of you interested, here is the current code for the key signature!
 
-**Image 5: MEI Code for the Key Signature in "Hannah's Skotshne"**
-
-![Image 5: MEI Code for the Key Signature in "Hannah's Skotshne"](/images/uploads/screenshot-2025-06-02-at-3.44.25 pm.png)
+```
+<choice xml:id="cyczocn1">
+  <orig xml:id="jw983k">
+     <keySig xml:id="k1nemqaw">
+        <keyAccid xml:id="k10uzq7v" accid="f" pname="b"/>
+        <keyAccid xml:id="k10gm87c" accid="f" pname="e"/>
+        <add xml:id="a19bmee" hand="#wud92h4">
+           <keyAccid xml:id="kp9nu6k" accid="s" pname="c"/>
+        </add>
+     </keySig>
+  </orig>
+  <reg xml:id="iwo482" corresp="modal1">
+     <keySig xml:id="asouqrc2">
+        <keyAccid xml:id="aksowpr3" accid="f" pname="b"/>
+        <keyAccid xml:id="cheese64" accid="s" pname="c"/>
+     </keySig>
+  </reg>
+</choice>
+```
 
 ## Challenge #2: The Grace Note in Measure 3
 
@@ -84,9 +100,36 @@ Let's take a look at just a single measure, the second to last measure of the tu
 
 As you can see, half of measure 32 is completely obscured in the manuscript, but Hannah says "The second half of bar 32 is obscured. Since bars 30, 31 and 33 are identical to bars 9, 10 and 12, it would make sense if 32 was the same as bar 11." This note is encoded in the MEI for the measure and, as seen above, the "supplied" notes by Hannah are highlighted in orange to show that they were not visible or clear in the original document. When the notes are as ambiguous as in this tune, we have chosen to fill in the missing notes and show an indicator to alert the reader that they are provided by the editors. The MEI-friend editor that we use for our editorial process displays these added notes as orange, but in the future we will most likely use the notational system created by our KMDMP Scholarly Editions team.
 
-**Image 8: MEI Code for Measure 32 in "Hannah's Skotshne"**
-
-![Image 8: MEI Code for Measure 32 in "Hannah's Skotshne"](/images/uploads/screenshot-2025-06-02-at-3.51.08 pm.png)
+```
+<measure xml:id="m18gdncd" n="32">
+ <staff xml:id="sz7gbai" n="1">
+    <layer xml:id="l1ygvi2v" n="1">
+       <beam xml:id="bitg35n">
+          <note xml:id="n18o2exb" dur="16" dur.ppq="1" oct="5" pname="d" stem.dir="down"/>
+          <choice xml:id="n17g7u0l" corresp="#modal1">
+             <orig>
+                <note xml:id="n172i90l" accid="s" accid.ges="s" breaksec="1" dur="16" dur.ppq="1" oct="5" pname="c" stem.dir="down"/>
+             </orig>
+             <reg>
+                <note xml:id="n172adg0l" accid.ges="s" breaksec="1" dur="16" dur.ppq="1" oct="5" pname="c" stem.dir="down"/>
+             </reg>
+          </choice>
+          <note xml:id="nagf0ud" accid.ges="f" dur="8" dur.ppq="2" oct="4" pname="b" stem.dir="down"/>
+       </beam>
+       <beam xml:id="bd6r2vn">
+          <supplied xml:id="sslvljs2" reason="paper_fold" extent="total">
+             <note xml:id="nipvbxc" accid.ges="f" dur="16" dur.ppq="1" oct="4" pname="b" stem.dir="down"/>
+             <note xml:id="n690ue4" breaksec="1" dur="16" dur.ppq="1" oct="4" pname="a" stem.dir="down"/>
+             <note xml:id="n17cwjkj" dur="8" dur.ppq="2" oct="4" pname="g" stem.dir="down"/>
+          </supplied>
+       </beam>
+       <annot plist="#sslvljs2" type="reason">The second half of bar 32 is obscured. Since <annot plist="#mgh3z2p #m31ivoo #m1u0xqe0" type="ref">bars 30, 31 and 33 </annot> are identical to <annot plist="#mohjwj #m1lipan0 #m1pzhz6f" type="ref">bars 9, 10 and 12</annot>, it would make sense if 32 was the same as <annot plist="#m1m8hdny" type="ref">bar11</annot>.</annot>
+    </layer>
+ </staff>
+ <slur xml:id="s1w109e0" endid="#n17g7u0l" startid="#n18o2exb"/>
+ <slur xml:id="sukmd9f" endid="#n690ue4" startid="#nipvbxc"/>
+</measure>
+```
 
 ## There are thousands of tunes! What happens next?
 
