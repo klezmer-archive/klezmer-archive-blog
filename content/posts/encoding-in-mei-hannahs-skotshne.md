@@ -5,6 +5,7 @@ authors:
   - Clara Byom
 description: "Encoding annotations, different readings, and more! (You don't
   need to code to understand this blog post!) "
+image: /images/uploads/2.png
 tags:
   - MEI
 categories:
@@ -18,7 +19,7 @@ By now, many of you have heard the tale of this tune that has swept around the g
 
 **Image 1: Facsimile of the "Hannah's Skotshne" Manuscript**
 
-![Image 1: Facsimile of the "Hannah's Skotshne" Manuscript](/images/uploads/kmdmp-20-59-1676-edited.png "Image 1: Facsimile of the \"Hannah's Skotshne\" Manuscript")
+![Image 1: Facsimile of the "Hannah's Skotshne" Manuscript](/images/uploads/kmdmp-20-59-1676-edited.png "Image 1: Facsimile of the \\"Hannah's Skotshne\\" Manuscript")
 
 Nevertheless, KMDMP digitizer extraordinaire Hannah Ochner tackled this piece, providing us with a legible version of the tune from the bits of writing peeking out from the folds and context throughout the tune. When Hannah was done, she submitted her MusicXML file for us to reference as we move into the editorial phase of encoding using MEI. 
 
@@ -56,7 +57,7 @@ Once we’ve encoded more of the KMDMP corpus in MEI, the future Klezmer Archive
 
 For those of you interested, here is the current code for the key signature!
 
-```
+```xml
 <choice xml:id="cyczocn1">
   <orig xml:id="jw983k">
      <keySig xml:id="k1nemqaw">
@@ -90,17 +91,17 @@ The bottom of the original manuscript is, frankly, a mess! Luckily, Hannah provi
 
 Let's take a look at just a single measure, the second to last measure of the tune (ms. 32), for an example of the messiness we are able to document in MEI.
 
-**Image 6: Measure 32 in the Manuscript**
+**Image 5: Measure 32 in the Manuscript**
 
-![Image 6: Measure 32 in the Manuscript](/images/uploads/screen-shot-2025-05-16-at-1.50.38-pm.png)
+![Image 5: Measure 32 in the Manuscript](/images/uploads/screen-shot-2025-05-16-at-1.50.38-pm.png)
 
-**Image 7: Measure 32 in the Manuscript MEI Version**
+**Image 6: Measure 32 in the Manuscript MEI Version**
 
-![Image 7: Measure 32 in the Manuscript MEI Version](/images/uploads/screen-shot-2025-05-16-at-1.51.11-pm.png)
+![Image 6: Measure 32 in the Manuscript MEI Version](/images/uploads/screen-shot-2025-05-16-at-1.51.11-pm.png)
 
 As you can see, half of measure 32 is completely obscured in the manuscript, but Hannah says "The second half of bar 32 is obscured. Since bars 30, 31 and 33 are identical to bars 9, 10 and 12, it would make sense if 32 was the same as bar 11." This note is encoded in the MEI for the measure and, as seen above, the "supplied" notes by Hannah are highlighted in orange to show that they were not visible or clear in the original document. When the notes are as ambiguous as in this tune, we have chosen to fill in the missing notes and show an indicator to alert the reader that they are provided by the editors. The MEI-friend editor that we use for our editorial process displays these added notes as orange, but in the future we will most likely use the notational system created by our KMDMP Scholarly Editions team.
 
-```
+```xml
 <measure xml:id="m18gdncd" n="32">
  <staff xml:id="sz7gbai" n="1">
     <layer xml:id="l1ygvi2v" n="1">
