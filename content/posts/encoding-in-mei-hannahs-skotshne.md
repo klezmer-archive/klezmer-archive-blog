@@ -64,7 +64,7 @@ For those of you interested, here is the current code for the key signature!
 
 As you can see in the third measure of Images 3 and 4, one C in the original hand that did NOT have a written out sharp next to it - the grace note in measure 3. What do we make of this? Did the original writer forget a C-sharp? Did he intend to leave it a C-natural? Since there is no definite indicator, we leave it as is for the manuscript version and use our best klezmer-informed knowledge to make a decision for the "playable" version. As you can see, we are suggesting that grace note be played as a C-natural and (not visible in the screenshot) have included an annotation to read:
 
-*"The original key signature of this tune had two flats, but a later hand (presumably Beregovski) added the C-sharp to reflect the klezmer mode of G misheberakh. This note has no accidental in the manuscript. The editors recommend playing this as a C-natural."*
+> The original key signature of this tune had two flats, but a later hand (presumably Beregovski) added the C-sharp to reflect the klezmer mode of G misheberakh. This note has no accidental in the manuscript. The editors recommend playing this as a C-natural.
 
 Capturing annotations and editorial commentary not only in the general music file, but linked to specific notes, bars, barlines, or other music symbols allows future scholars and musicians to understand our entire editorial process; and, encoding the music and annotations together in a single file reduces the likelihood that "text" and "context" become separated in the future.
 
