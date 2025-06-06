@@ -21,7 +21,7 @@ In thinking about modes in this repertoire, I am thinking not only about pitch c
 
 I will assume a basic understanding of four modes: (1) freygish or ahava rabboh, (2) misheberakh or altered Dorian, also referred to in some sources as the raised fourth mode, (3) minor or mogen ovos, and (4) major or adonoy molokh. The minor and major modes at times overlap with those of Western European tonality and at times differ, reflecting more of the modal characteristics of traditional nusach and cantorial repertoire. [^1]
 
-# Overview of Modes and Genres in Motl Reyder's Notebook
+## Overview of Modes and Genres in Motl Reyder's Notebook
 
 Example 1 below shows the number of tunes in each mode in the collection. The graph is based on a single modal designation for each tune; I will explore modal shifts within tunes below. Example 1 shows that all four modes are present in substantial numbers, but the major (adonoy molokh) and minor (mogen avos) modes are more prevalent. We are familiar with minor being a common mode in klezmer music, but it may be surprising to find that major is the most common mode in this collection. Example 2 provides the equivalent data from Beregovski's instrumental volume; there minor is by far the most common with freygish a distant second and misheberakh and major least common.
 
@@ -43,7 +43,7 @@ We can explore the correlation of mode and genre more deeply with the table in E
 
 I created a [Motl Reyder Mode Analysis Table](https://coda.io/@christina-crowder/yonatan-malins-mode-analysis-of-the-motl-reyder-heft)[](https://shanahdt.github.io/mode_in_klezmer/malin_and_shanahan_metadata.html) to show more detailed, tune-by-tune analyses. These analyses are also being saved and organized as musicological data for the Klezmer Archive Project. Christina Crowder provided images of the scores and manuscripts and links to recordings. The table includes the genre as shown on the manuscripts under "E working title" and a genre category for analysis and discussion here under "Yonatan genre." The genre category allows me to group the "An'Ore" no. 980 together with the rest of the Oras, or the "Freylekhs (Skotshne)" no. 1014 together with the rest of the Skotshnes. The spreadsheet can be filtered by one or more columns. For instance, we can find all the tunes in major by clicking on the "E primary mode" button at the top and choosing Major. We can then find the major tunes that are also bulgars by clicking on the "Yonatan genre" button and choosing Bulgar. The spreadsheet provides further information about form, mode, and modal pathway for each tune. Daniel Shanahan and I have created an analogous spreadsheet for Beregovski's instrumental volume; see the ["Mode Analysis" page](https://shanahdt.github.io/mode_in_klezmer/malin_and_shanahan_metadata.html) on the ["Modes in Klezmer" website.](https://shanahdt.github.io/mode_in_klezmer/)
 
-# Modal Pathways
+## Modal Pathways
 
 Klezmer tunes sometimes stay in a single mode throughout. And sometimes they "modulate" or shift to other related modes. When they do modulate, most tunes follow a set of common or characteristic pathways. For instance, freygish tunes often modulate to the minor mode a fourth up, e.g., G freygish to C minor. Freygish tunes may also modulate to the major mode a fourth up, e.g., G freygish to C major, or to a major mode a step down, e.g., G freygish to F major. Example 4 shows modulation pathways in Beregovski's instrumental volume, for the tunes in the freygish mode. Beregovski notated all his tunes in G, so the network shows modulations from G freygish. Darker lines represent more common moves, and the numbers indicate how many tunes follow the given pathway. This diagram shows only the first modulation, other modulations may follow.
 
@@ -87,9 +87,7 @@ This Bulgar and the entirety of Motl Reyder's notebook document a meeting of wor
 
 [^2]: I will present the network diagram in Example 4 and others like it in an article co-authored with Daniel Shanahan, forthcoming in *Music Theory Online* (Malin and Shanahan forthcoming). Joshua Horowitz documented similar modal pathways in an article from 1993. And Joel Rubin provides a comprehensive catalog of the modulation pathways in recordings by Naftule Brandwein and Dave Tarras in his book *New York Klezmer in the Early 20th Century* (2020) and his dissertation (2001).
 
-
-
-# References
+## References
 
 Beregovski, Moshe. 2015. *Jewish Instrumental Folk Music: The Collections and Writings of Moshe Beregovski.* Edited by Mark Slobin, Michael Alpert, and Robert Rothstein. Second edition, Revised by Kurt Björling. Draft 3.4.
 
