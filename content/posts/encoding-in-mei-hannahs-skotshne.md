@@ -22,7 +22,7 @@ By now, many of you have heard the tale of this tune that has swept around the g
 
 Nevertheless, KMDMP digitizer extraordinaire Hannah Ochner tackled this piece, providing us with a legible version of the tune from the bits of writing peeking out from the folds and context throughout the tune. When Hannah was done, she submitted her MusicXML file for us to reference as we move into the editorial phase of encoding using MEI. 
 
-MEI is a XML specification (a version of the musicXML produced by music notation programs) developed by the Music Encoding Initiative used widely for digitally encoding music in academic and archival projects with similar goals to the Klezmer Archive. The schema is developed in the open and the project leaders welcome changes from the community. Indeed, we have already contributed a few small changes that have been accepted and will be included in future releases. The community also has built a suite of tools that we are excited to use, including the Verovio renderer and MEI-friend editor.
+MEI is an XML specification (similar to MusicXML, which is produced by music notation programs) developed by the Music Encoding Initiative used widely for digitally encoding music in academic and archival projects with similar goals to the Klezmer Archive. The schema is developed in the open and the project leaders welcome changes from the community. Indeed, we have already contributed a few small changes that have been accepted and will be included in future releases. The community also has built a suite of tools that we are excited to use, including the Verovio renderer and MEI-friend editor.
 
 # Why MEI?
 
