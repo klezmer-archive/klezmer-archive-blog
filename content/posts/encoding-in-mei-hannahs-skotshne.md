@@ -19,7 +19,7 @@ By now, many of you have heard the tale of this tune that has swept around the g
 
 **Image 1: Facsimile of the "Hannah's Skotshne" Manuscript**
 
-![Image 1: Facsimile of the "Hannah's Skotshne" Manuscript](/images/uploads/kmdmp-20-59-1676-edited.png "Image 1: Facsimile of the \\"Hannah's Skotshne\\" Manuscript")
+![Image 1: Facsimile of the "Hannah's Skotshne" Manuscript](/images/uploads/kmdmp-20-59-1676-edited.png "Image 1: Facsimile of the \"Hannah's Skotshne\" Manuscript")
 
 Nevertheless, KMDMP digitizer extraordinaire Hannah Ochner tackled this piece, providing us with a legible version of the tune from the bits of writing peeking out from the folds and context throughout the tune. When Hannah was done, she submitted her MusicXML file for us to reference as we move into the editorial phase of encoding using MEI. 
 
