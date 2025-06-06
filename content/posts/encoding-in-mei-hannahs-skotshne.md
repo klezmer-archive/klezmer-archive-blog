@@ -66,7 +66,7 @@ As you can see in the third measure of Images 3 and 4, one C in the original han
 
 > The original key signature of this tune had two flats, but a later hand (presumably Beregovski) added the C-sharp to reflect the klezmer mode of G misheberakh. This note has no accidental in the manuscript. The editors recommend playing this as a C-natural.
 
-Capturing annotations and editorial commentary not only in the general music file, but linked to specific notes, bars, barlines, or other music symbols allows future scholars and musicians to understand our entire editorial process; and, encoding the music and annotations together in a single file reduces the likelihood that "text" and "context" become separated in the future.
+Capturing annotations and editorial commentary not only in the general music file, but linked to specific notes, bars, barlines, or other music symbols allows future scholars and musicians to understand our entire editorial process, and encoding the music and annotations together in a single file reduces the likelihood that "text" and "context" become separated in the future.
 
 # Challenge #3: Unclear or Obscured Notes/Passages
 
