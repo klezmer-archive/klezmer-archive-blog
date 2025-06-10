@@ -39,7 +39,7 @@ We can explore the correlation of mode and genre more deeply with the table in E
 
 **Example 3. Mode and Genre Correlations in Motl Reyder's Notebook**
 
-![Example 3. Mode and Genre Correlations in Motl Reyder's Notebook](/images/uploads/image003.png "Example 3. Mode and Genre Correlations in Motl Reyder's Notebook")
+![Example 3. Mode and Genre Correlations in Motl Reyder's Notebook](/images/uploads/screenshot-2025-06-10-at-10.56.29 am.png "Example 3. Mode and Genre Correlations in Motl Reyder's Notebook")
 
 I created a [Motl Reyder Mode Analysis Table](https://coda.io/@christina-crowder/yonatan-malins-mode-analysis-of-the-motl-reyder-heft)[](https://shanahdt.github.io/mode_in_klezmer/malin_and_shanahan_metadata.html) to show more detailed, tune-by-tune analyses. These analyses are also being saved and organized as musicological data for the Klezmer Archive Project. Christina Crowder provided images of the scores and manuscripts and links to recordings. The table includes the genre as shown on the manuscripts under "E working title" and a genre category for analysis and discussion here under "Yonatan genre." The genre category allows me to group the "An'Ore" no. 980 together with the rest of the Oras, or the "Freylekhs (Skotshne)" no. 1014 together with the rest of the Skotshnes. The spreadsheet can be filtered by one or more columns. For instance, we can find all the tunes in major by clicking on the "E primary mode" button at the top and choosing Major. We can then find the major tunes that are also bulgars by clicking on the "Yonatan genre" button and choosing Bulgar. The spreadsheet provides further information about form, mode, and modal pathway for each tune. Daniel Shanahan and I have created an analogous spreadsheet for Beregovski's instrumental volume; see the ["Mode Analysis" page](https://shanahdt.github.io/mode_in_klezmer/malin_and_shanahan_metadata.html) on the ["Modes in Klezmer" website.](https://shanahdt.github.io/mode_in_klezmer/)
 
@@ -49,7 +49,7 @@ Klezmer tunes sometimes stay in a single mode throughout. And sometimes they "mo
 
 **Example 4. Modulation Pathways from *Freygish* in Beregovski's Instrumental Volume (first modulation)**
 
-![Example 4. Modulation Pathways from Freygish in Beregovski's Instrumental Volume (first modulation)](/images/uploads/image004.png "Example 4. Modulation Pathways from Freygish in Beregovski's Instrumental Volume (first modulation)")
+![Example 4. Modulation Pathways from Freygish in Beregovski's Instrumental Volume (first modulation)](/images/uploads/image003.png "Example 4. Modulation Pathways from Freygish in Beregovski's Instrumental Volume (first modulation)")
 
 Individual tunes following each pathway can be found on the Mode Analysis page from the "Modes in Klezmer" website. Thus, if we enter "G freygish" in the box under the mode column and "F major" (with quotation marks) in the box under modulation_pathway, we find all the tunes that include F major as a secondary mode. The Freylekhs no. 87 is a classic example; it can be heard in a [recording by Abe Schwartz's Orchestra on Columbia records](https://digital.library.wisc.edu/1711.dl/52YLJG6XIZOQO8F), circa 1918. Listen for the shift to F major is section B, at 0:19 on the recording. [^2]
 
@@ -57,17 +57,17 @@ What about the modulations in Motl Reyder's notebook? Many of them follow the sa
 
 **Example 5. Modulation Pathways from *Freygish* in Motl Reyder's Notebook (first modulation)**
 
-![Example 5. Modulation Pathways from Freygish in Motl Reyder's Notebook (first modulation)](/images/uploads/image005.png "Example 5. Modulation Pathways from Freygish in Motl Reyder's Notebook (first modulation)")
+![Example 5. Modulation Pathways from Freygish in Motl Reyder's Notebook (first modulation)](/images/uploads/image004.png "Example 5. Modulation Pathways from Freygish in Motl Reyder's Notebook (first modulation)")
 
 The most significant differences are once again in the tunes in major, primarily in the transitional and cosmopolitan repertoire. It is not only that there are more of these in Motl Reyder's notebook; they also follow different modulation pathways. Whereas Beregovski's tunes in major go most frequently to misheberakh on the same tonic (G major to G misheberakh), Motl Reyder's major-mode tunes go most frequently to minor or misheberakh on the sixth scale degree (e.g., G major to E minor or G major to E misheberakh). Examples 6 and 7 compare the modal pathways for major-mode tunes in the two collections.
 
 **Example 6. Modulation Pathways from Major in Beregovski's Instrumental Volume (first modulation)**
 
-![Example 6. Modulation Pathways from Major in Beregovski's Instrumental Volume (first modulation)](/images/uploads/image006.png "Example 6. Modulation Pathways from Major in Beregovski's Instrumental Volume (first modulation)")
+![Example 6. Modulation Pathways from Major in Beregovski's Instrumental Volume (first modulation)](/images/uploads/image005.png "Example 6. Modulation Pathways from Major in Beregovski's Instrumental Volume (first modulation)")
 
 **Example 7. Modulation Pathways from Major in Motl Reyder's Notebook (first modulation)**
 
-![Example 7. Modulation Pathways from Major in Motl Reyder's Notebook (first modulation)](/images/uploads/image007.png "Example 7. Modulation Pathways from Major in Motl Reyder's Notebook (first modulation)")
+![Example 7. Modulation Pathways from Major in Motl Reyder's Notebook (first modulation)](/images/uploads/image006.png "Example 7. Modulation Pathways from Major in Motl Reyder's Notebook (first modulation)")
 
 The modulation pathways contribute to the cosmopolitan feel of Motl Reyder's repertoire, together with its more typically Jewish elements. Of course, the cosmopolitan and transitional tunes feel different for other reasons as well. Many of them are "tonal" in a Western European sense; the melodies are structured around motion from tonic to dominant and back. Christina Crowder observed that Motl Reyder's Bulgars are reminiscent of military brass band music (personal communication). We don't know anything more Motl Reyder's biography, but many klezmers in the nineteenth century played in military bands and fire-brigade orchestras (Feldman 2016, 113–114; Rubin 2020, 32–33).
 
@@ -79,7 +79,7 @@ In thinking about the association with military bands, Christina cited the Bulga
 
 **Example 9. Bulgar, KMDMP 02-37-965 digitized by Mauricio Sanchez Rivera**
 
-![Example 9. Bulgar, KMDMP 02-37-965 digitized by Mauricio Sanchez Rivera](/images/uploads/screenshot-2025-06-02-at-4.03.50 pm.png "Example 9. Bulgar, KMDMP 02-37-965 digitized by Mauricio Sanchez Rivera")
+![Example 9. Bulgar, KMDMP 02-37-965 digitized by Mauricio Sanchez Rivera](/images/uploads/bolgar-yonatan-s-blog.png "Example 9. Bulgar, KMDMP 02-37-965 digitized by Mauricio Sanchez Rivera")
 
 This Bulgar and the entirety of Motl Reyder's notebook document a meeting of worlds in the changing Ashkenazi culture of the time. Motl Reyder was seventy years old in 1913, when he passed the notebook on to Susman Kiselgof. He witnessed the evolving Ashkenazi culture through his life, performed it in his music, and documented it in his notebook of tunes that we are so lucky now to explore and enjoy.
 
