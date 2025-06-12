@@ -11,6 +11,8 @@ tags:
 categories:
   - Klezmer
 ---
+*This analysis supports the development and refinement of musicological concepts for inclusion in the Klezmer Archive Project's Musics of Oral Tradition Ontology.*
+
 As we play, sing, and explore the precious collection of manuscripts from the Vernadsky National Library of Ukraine, in Kyiv—made available through the Kiselgof-Makonovetsky Digital Manuscript Project (KMDMP)—we can ask questions about the repertoire. What genres are represented? What is the balance of core Jewish, transitional, co-territorial, and cosmopolitan repertoires? How do the collections from different sources compare: the wedding book from Makonovetsky (b. 1872), a violinist who was an important informant for Beregovski; the notebook (Heft) from Motl Reyder, a violinist from Dubno (b. 1843); the repertoire from Moisei Komedian Gershkovitch (dates and location unknown), and so forth. Where does the repertoire come from? Mariko Mishiro has done important work on these questions based on Beregovski's catalog of tunes (Mishiro 2021). Mishiro observes, for instance, that there is a large proportion of core repertoire, more than in the American recordings of Naftule Brandwein and Dave Tarras.
 
 Here, I would like to dig a little deeper and ask questions about the tunes themselves, and especially their use of musical modes. What can we say about the klezmer modes based on this repertoire? How do the modes differ by genre or by informant? How do the modes in these manuscripts compare with those in Beregovski's *Jewish Instrumental Folk Music* (2015) or in other collections and sources?
